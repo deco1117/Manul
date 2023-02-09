@@ -1,0 +1,71 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.manual__nav{
+    background-color: rgb(79, 79, 148);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.nav__logo{
+    color: white;
+    font-size: 40px;
+}
+
+.nav__list{
+    gap: 40px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__list--item-link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.git__title{
+    text-align: center;
+    color: rgb(131, 184, 140);
+    font-size: 40px;
+}
+
+tr{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+th{
+    width: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+td{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+table{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(9, 85, 148);
+    margin-top: 50px;
+}

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Manual</title>
 </head>
 <body>
-    <header container>
+    <header class="container">
         <nav class="manual__nav">
             <div class="nav__logo">Deco</div>
             <ul class="nav__list">
@@ -18,59 +19,78 @@
         </nav>
     </header>
     <main>
-        <section class="git">
+        <section class="git container">
             <div class="git__card">
                 <h1 class="git__title">
                     GIT
                 </h1>
-                <p class="git__text">
-                    git config --list >> git fayllari xaqida ma'lumot beradi
-                </p>
-                <p class="git__text">
-                    git status >> xolatni bilish 
-                </p>
-                <p class="git__text">
-                    git add >> gitga fayl qo'shish
-                </p>
-                <p class="git__text">
-                    git add . >> bo'lsa barcha fayllarni gitga qo'shish
-                </p>
-                <p class="git__text">
-                    git add . >> bo'lsa barcha fayllarni gitga qo'shish
-                </p>
-                <p class="git__text">
-                    git commit -m "commitni nomlash" >> yuborilayotgan o'zgarishni nomlash
-                </p>
-                <p class="git__text">
-                    git reset index.html >> oxirgi qilgan o'zgartirishni ortga qaytarish
-                </p>
-                <p class="git__text">
-                    git log >> Bu gitga o'zgartirish kiritganlik xaqida ma'lumot beradi (kim o'zgartirish kiritdi, soati, commitni nomi...)
-                </p>
-                <p class="git__text">
-                    git checkout [git id si] >> commit qilingan qaysidur xolatga qaytish uchun
-                </p>
-                <p class="git__text">
-                    
-                </p>
-                <p class="git__text">
-                    
-                </p>
-                <p class="git__text">
-                    
-                </p>
-                <p class="git__text">
-                    
-                </p>
-                <p class="git__text">
-                    
-                </p>
-                <p class="git__text">
-                    
-                </p>
-
+            <table class="git__table">
+                <tr class="top">
+                    <th>Cod</th>
+                    <th>Ta'rif</th>
+                </tr>
+                <tr class="info">
+                    <td>git config --list</td>
+                    <td>git fayllari xaqida ma'lumot beradi</td>
+                </tr>
+                <tr class="info">
+                    <td>git status</td>
+                    <td>xolatni bilish</td>
+                </tr>
+                <tr class="info">
+                    <td>git add</td>
+                    <td>gitga fayl qo'shish</td>
+                </tr>
+                <tr class="info">
+                    <td>git add .</td>
+                    <td>bo'lsa barcha fayllarni gitga qo'shish</td>
+                </tr>
+                <tr class="info">
+                    <td> git commit -m "commitni nomlash"</td>
+                    <td>yuborilayotgan o'zgarishni nomlash</td>
+                </tr>
+                <tr class="info">
+                    <td>it reset index.html</td>
+                    <td>oxirgi qilgan o'zgartirishni ortga qaytarish</td>
+                </tr>
+                <tr class="info">
+                    <td>git log</td>
+                    <td>Bu gitga o'zgartirish kiritganlik xaqida ma'lumot beradi (kim o'zgartirish kiritdi, soati, commitni nomi...)</td>
+                </tr>
+                <tr class="info">
+                    <td>git checkout [git id si]</td>
+                    <td>commit qilingan qaysidur xolatga qaytish uchun</td>
+                </tr>
+                <tr class="info">
+                    <td>git checkout main</td>
+                    <td>qaysi branchga o'tishni tanlash uchun</td>
+                </tr>
+                <tr class="info">
+                    <td>git branch</td>
+                    <td>biz ayni vaqtda qaysi branchda turganimizni ko'rsatadi</td>
+                </tr>
+                <tr class="info">
+                    <td>git branch [heder]</td>
+                    <td>Bu yangi branch ochish</td>
+                </tr>
+                <tr class="info">
+                    <td>git push -u origin [branch nomi]</td>
+                    <td>Bu proektni push qilish uchun</td>
+                </tr>
+                <tr class="info">
+                    <td>Gitlens</td>
+                    <td>extantion git uchun qatorlarda git xaqida ma'lumot beradi</td>
+                </tr>
+                <tr class="info">
+                    <td>Git Graph</td>
+                    <td>extantion git uchun (Bu branch xolatini chizib beradi)</td>
+                </tr>
+                <tr class="info">
+                    <td>git merge [header]</td>
+                    <td>Bu branchni birlashtirish uchun (asosiy branchga o'tib qo'shimcha branchni chaqiriladi)</td>
+                </tr>
+            </table>
             </div>
-
         </section>
     </main>
 </body>
