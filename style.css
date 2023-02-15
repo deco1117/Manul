@@ -69,3 +69,7 @@ table{
     background-color: rgb(9, 85, 148);
     margin-top: 50px;
 }
+
+p{
+    list-style-type: none;
+}
