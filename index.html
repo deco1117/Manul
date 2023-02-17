@@ -262,11 +262,142 @@
                     <th>Ta'rif</th>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>String</td>
+                    <td>Bu matn yani "qo'shtirnoq ichiga olib yoziladigan ma'lumotlar"</td>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td>Raqamlar barchasi</td>
+                </tr>
+                <tr>
+                    <td>Boolean</td>
+                    <td>Mantiqiy ifodalar (fols true)</td>
+                </tr>
+                <tr>
+                    <td>undefined</td>
+                    <td>Qiymat tainlanmagan lekin kelajakda qiymat tayinlanishi mumkin</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>Qiymat tayinlangan yani bo'shligi qabul qilmaydi uning qiymati yo'q u qiymat qabul qilmasligi ko'rsa</td>
+                </tr>
+                <tr>
+                    <td>BigInt</td>
+                    <td>Bu 23 xonadan katta raqamlar juda ko'p bo'lib ketganda ma'lumot turi xisoblanadi raqamlar oxrida n qo'yib qo'yiladi </td>
+                </tr>
+                <tr>
+                    <td>Symbol</td>
+                    <td>Bu qiymatlarni o'zgarmas qilishda ishlatiladi</td>
+                </tr>
+                <tr>
+                    <td>let srt = Symbol("salom")</td>
+                    <td>Bunda  qiymatini boshqa o'zgartirib bo'lmaydi qiymatni o'zgarmas qilib (unic) qo'yadi</td>
+                </tr>
+                <tr>
+                    <td>typeof</td>
+                    <td>Bu qiymatni qaysi ma'lumot turida ekanini bilib olish uchun ishlatiladi</td>
+                </tr>
+                <tr>
+                    <td>type convertion</td>
+                    <td>Ma'umot turini boshqasiga almashtirish uchun ishlatiladi </td>
+                </tr>
+                <tr>
+                    <td>type convertion 1 - *1 usuli </td>
+                    <td>Birga ko'paytirish</td>
+                </tr>
+                <tr>
+                    <td>type convertion 2 - </td>
+                    <td>o'zgaruvchi qiymatidan oldin ma'lumot tipini kiritib qo'yish orqali</td>
+                </tr>
+                <tr>
+                    <td>type convertion 2 - </td>
+                    <td>o'zgaruvchi qiymatidan oldin ma'lumot tipini kiritib qo'yish orqali</td>
                 </tr>
             </table>
             </div>
+        </section>
+        <section class="js-taqqoslash-o'zlashtirish container">
+            <div class="git__card">
+                <h1 class="git__title">
+                    JS Taqqoslash o'zlashtirish operatorlari
+                </h1>
+            <table class="git__table">
+                <tr class="top">
+                    <th>Cod</th>
+                    <th>Ta'rif</th>
+                </tr>
+                <tr>
+                    <td>==</td>
+                    <td>taqqoshlash operatori. agar teglik 3ta bo'lsa type ni xam tekshiradi</td>
+                </tr>
+                <tr>
+                    <td>O'zlashtirish operatori shuki:</td>
+                    <td>Bunda bror a o'zgaruvchi qiymatiga bror b o'zgaruvchini qiymatini a o'zgaruvchisiga qo'shib olishiga aytiladi (a=1 b=3 a+=b)</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <section class="js-shart-0perator container">
+            <div class="git__card">
+                <h1 class="git__title">
+                    JS Shart operatorlari
+                </h1>
+            <table class="git__table">
+                <tr class="top">
+                    <th>Cod</th>
+                    <th>Ta'rif</th>
+                </tr>
+                <tr>
+                    <td>if else</td>
+                    <td>if("sardor"=="Sardor"){
+                            condition = true;
+                        }else{
+                            condition = folse;
+                        }    
+                    </td>
+                </tr>
+                <tr>
+                    <td>if, else if, else </td>
+                    <td>if(dayNamber === 1){
+                            wrapper.innerText="Dushanba";
+                        }else if(dayNumber === 2){
+                            wrapper.innerText="Seshanba";
+                        }else{
+                            wrapper.inner.Text = `Haftada bunday ${dayNumber} yo'q
+                        }
+                    </td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <section class="js-mantiqiy-0perator container">
+            <div class="git__card">
+                <h1 class="git__title">
+                    JS Mantiqiy va || , mantiqiy yoki && operatorlari
+                </h1>
+            <table class="git__table">
+                <tr class="top">
+                    <th>Cod</th>
+                    <th>Ta'rif</th>
+                </tr>
+                <tr>
+                    <td>Mantiqiy va (||)</td>
+                    <td>if (operatorNumber === 90 || operatorNumber === 91 || operatorNumber === 92){
+                        console.log('Beeline');
+                        }else{
+                            console.log('Beeline number is not correct');
+                        }
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mantiqiy yoki &&</td>
+                    <td>if(a>0 && b>0 && c>0 && d>0){
+                        console.log(`a=${a}, b=${b}, c=${c}, d=${d} sonlar musbat sonlar);
+                        }else{
+                            console.log("sonlardan biri yoki hammasi manfiy");
+                        }
+                    </td>
+                </tr>
         </section>
     </main>
 </body>
